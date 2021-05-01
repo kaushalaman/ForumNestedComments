@@ -1,0 +1,38 @@
+Steps:
+
+1. Download This Directory
+2. run `npm install` (node version: v6.17.1 npm: 3.10.10)
+3. mysql should be installed on local system
+4. Login: mysql -uroot -p localdb12
+5. Run: create database `forum`;
+6. Run: use database `forum`;
+7. Run: DEBUG=* node server.js
+8. Once server comes up successfully. Open http://0.0.0.0:3000/documentation this on your Chrome.
+9. You will find all APIs for test run. Can experiment
+
+Thanks
+
+
+Error Handling:
+
+ ======> Promises then..catch functions Used for error handling
+
+Asynchronous Functions Handling:
+
+======> Hybrid of Async and Promises used
+
+Data Definition Language:
+
+=======> Sequelize Classes used for making relations and associations
+
+========> Mysql ORM
+
+=========> No Config files required, All Dynamic Params are stored in database only.
+
+Kafka can be used for updating ancestor and descendant mappings.
+
+
+
+
+
+
